@@ -1,0 +1,2058 @@
+ProgramState: 2
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (new( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (new( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=10 ; (new( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=10 ; (new( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(new( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(new( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), new( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), HeapAloc( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), HeapAloc( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), HeapAloc( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 6
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), HeapAloc( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), HeapAloc( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(Ref(int) a ; (v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))), Ref(int) a]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=10 ; (HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))), v=10]
+SymbolTable:
+{a=(0,int), v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(HeapAloc( a, 22 ) ; (fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a)))), HeapAloc( a, 22 )]
+SymbolTable:
+{a=(0,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))) ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), fork((HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a))))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(HeapWrite (a,30) ; (v=32 ; (print(v) ; print(HeapReading (a)))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a)))), HeapWrite (a,30)]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=22}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(v=32 ; (print(v) ; print(HeapReading (a))))]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a))), v=32]
+SymbolTable:
+{a=(1,int), v=10}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; print(HeapReading (a)))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a)), print(v)]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(HeapReading (a))]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=(1,int), v=32}
+OutputList:
+[10, 30, 32, 30]
+FileTable:
+{}
+HeapTable:
+{1=30}
+
+
+

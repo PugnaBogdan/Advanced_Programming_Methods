@@ -1,0 +1,1260 @@
+ProgramState: 4
+ExectutionStack:
+[(string  varf ; (varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))))]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))), string  varf]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))))]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))), varf=test.in]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))), openFile(varf)]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))), int varc]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf))), print(varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ;  closeFile(varf)), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ;  closeFile(varf))]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@50040f0c}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[ closeFile(varf), print(varc)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@50040f0c}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[ closeFile(varf)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@50040f0c}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(string  varf ; (varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))))]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))), string  varf]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))))]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))), varf=test.in]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))), openFile(varf)]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))), int varc]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6f539caf}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf))), print(varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ;  closeFile(varf)), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@79fc0f2f}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(varc) ;  closeFile(varf))]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@50040f0c}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[ closeFile(varf), print(varc)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@50040f0c}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[ closeFile(varf)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@50040f0c}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))), string  varf]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))))]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))), varf=test.in]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))), openFile(varf)]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@3476563}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))), int varc]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@3476563}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@3476563}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@3476563}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@699fec2e}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf))), print(varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@699fec2e}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@699fec2e}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(varc) ;  closeFile(varf)), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@699fec2e}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(varc) ;  closeFile(varf))]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@6d0a2df3}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[ closeFile(varf), print(varc)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@6d0a2df3}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[ closeFile(varf)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@6d0a2df3}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))), string  varf]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))), string  varf]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))))]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))), varf=test.in]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))), openFile(varf)]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6517c9eb}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))), int varc]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6517c9eb}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6517c9eb}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@6517c9eb}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@557cc7c8}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf))), print(varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@557cc7c8}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@557cc7c8}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(varc) ;  closeFile(varf)), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@557cc7c8}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(print(varc) ;  closeFile(varf))]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@18c9580a}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[ closeFile(varf), print(varc)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@18c9580a}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[ closeFile(varf)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@18c9580a}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))), string  varf]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(varf=test.in ; (openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))))]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))), varf=test.in]
+SymbolTable:
+{varf=}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(openFile(varf) ; (int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))), openFile(varf)]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int varc ; (readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))))]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@488b9cc1}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))), int varc]
+SymbolTable:
+{varf=test.in}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@488b9cc1}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))))]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@488b9cc1}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=0}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@488b9cc1}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(varc) ; (readFile(varf, varc) ; (print(varc) ;  closeFile(varf))))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@4b5ededd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf))), print(varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[]
+FileTable:
+{test.in=java.io.BufferedReader@4b5ededd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(readFile(varf, varc) ; (print(varc) ;  closeFile(varf)))]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@4b5ededd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(varc) ;  closeFile(varf)), readFile(varf, varc)]
+SymbolTable:
+{varf=test.in, varc=15}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@4b5ededd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(varc) ;  closeFile(varf))]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@528790cd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[ closeFile(varf), print(varc)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15]
+FileTable:
+{test.in=java.io.BufferedReader@528790cd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[ closeFile(varf)]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{test.in=java.io.BufferedReader@528790cd}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{varf=test.in, varc=50}
+OutputList:
+[15, 50]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+

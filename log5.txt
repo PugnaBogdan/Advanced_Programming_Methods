@@ -1,0 +1,1036 @@
+ProgramState: 5
+ExectutionStack:
+[(int v ; (v=4 ; while( v > 0) { (print(v) ; v=v - 1) }))]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(v=4 ; while( v > 0) { (print(v) ; v=v - 1) }), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[(v=4 ; while( v > 0) { (print(v) ; v=v - 1) }), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, v=4]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, v=4]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, v=4]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, v=4]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=4}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=4}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=4}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=4}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=4}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=3}
+OutputList:
+[4]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[while( v > 0) { (print(v) ; v=v - 1) }, (print(v) ; v=v - 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[4, 3, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 5
+ExectutionStack:
+[]
+SymbolTable:
+{v=-1}
+OutputList:
+[4, 3, 2, 1, 0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+

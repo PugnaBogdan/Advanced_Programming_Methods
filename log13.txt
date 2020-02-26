@@ -1,0 +1,624 @@
+ProgramState: 12
+ExectutionStack:
+[(Ref(int) v1 ; (Ref(int) v2 ; (Ref(int) v3 ; (int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))))))))]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(Ref(int) v2 ; (Ref(int) v3 ; (int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))))))), Ref(int) v1]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(Ref(int) v2 ; (Ref(int) v3 ; (int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))))))))]
+SymbolTable:
+{v1=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(Ref(int) v3 ; (int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))))))), Ref(int) v2]
+SymbolTable:
+{v1=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(Ref(int) v3 ; (int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))))))]
+SymbolTable:
+{v1=(0,int), v2=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))))), Ref(int) v3]
+SymbolTable:
+{v1=(0,int), v2=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(int cnt ; (HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))))))]
+SymbolTable:
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))))), int cnt]
+SymbolTable:
+{v1=(0,int), v2=(0,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(HeapAloc( v1, 2 ) ; (HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))))]
+SymbolTable:
+{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))), HeapAloc( v1, 2 )]
+SymbolTable:
+{cnt=0, v1=(0,int), v2=(0,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(HeapAloc( v2, 3 ) ; (HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))), HeapAloc( v2, 3 )]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(0,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(HeapAloc( v3, 4 ) ; (newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))), HeapAloc( v3, 4 )]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(0,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(newBarrier(cnt, HeapReading (v2)) ; (fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))), newBarrier(cnt, HeapReading (v2))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))) ; (fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3)))), fork((await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1)))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))) ; (await(cnt) ; print(HeapReading (v3))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 13
+ExectutionStack:
+[(await(cnt) ; (HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(await(cnt) ; print(HeapReading (v3))), fork((await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2))))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 13
+ExectutionStack:
+[(HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1))), await(cnt)]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[(await(cnt) ; print(HeapReading (v3)))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 13
+ExectutionStack:
+[(HeapWrite (v1,HeapReading (v1) * 10) ; print(HeapReading (v1)))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[(await(cnt) ; (HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[print(HeapReading (v3)), await(cnt)]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 13
+ExectutionStack:
+[print(HeapReading (v1)), HeapWrite (v1,HeapReading (v1) * 10)]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[(HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))), await(cnt)]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=2, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[print(HeapReading (v3))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 13
+ExectutionStack:
+[print(HeapReading (v1))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[(HeapWrite (v2,HeapReading (v2) * 10) ; (HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2))))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 12
+ExectutionStack:
+[]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=3, 3=4}
+BarrierTable:
+{1=3=[]}
+
+
+
+ProgramState: 13
+ExectutionStack:
+[]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[(HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2))), HeapWrite (v2,HeapReading (v2) * 10)]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=3, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[(HeapWrite (v2,HeapReading (v2) * 10) ; print(HeapReading (v2)))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=30, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[print(HeapReading (v2)), HeapWrite (v2,HeapReading (v2) * 10)]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=30, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[print(HeapReading (v2))]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=300, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20, 300]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=300, 3=4}
+BarrierTable:
+{}
+
+
+
+ProgramState: 14
+ExectutionStack:
+[]
+SymbolTable:
+{cnt=0, v1=(1,int), v2=(2,int), v3=(3,int)}
+OutputList:
+[4, 20, 300]
+FileTable:
+{}
+HeapTable:
+{1=20, 2=300, 3=4}
+BarrierTable:
+{}
+
+
+

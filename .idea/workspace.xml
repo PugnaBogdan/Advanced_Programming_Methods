@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1396591-97d2-4f66-b7e2-0dd58c56285d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SpeAIPwOa6aComQL7YGGuPPIYG" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/gui/RunForm1.fxml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="GuiMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.GuiMain" />
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gui.Main" />
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.GuiMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1396591-97d2-4f66-b7e2-0dd58c56285d" name="Default Changelist" comment="" />
+      <created>1572264819184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572264819184</updated>
+      <workItem from="1572264823996" duration="2646000" />
+      <workItem from="1572868861996" duration="1034000" />
+      <workItem from="1573409005983" duration="6047000" />
+      <workItem from="1573466164490" duration="9542000" />
+      <workItem from="1574265307242" duration="9208000" />
+      <workItem from="1574669287067" duration="15695000" />
+      <workItem from="1574784493855" duration="7000" />
+      <workItem from="1574800104081" duration="991000" />
+      <workItem from="1574846661203" duration="3927000" />
+      <workItem from="1574929133333" duration="1813000" />
+      <workItem from="1575226267888" duration="29787000" />
+      <workItem from="1575377419726" duration="10000" />
+      <workItem from="1575383861546" duration="306000" />
+      <workItem from="1575889195346" duration="7688000" />
+      <workItem from="1576477168403" duration="18538000" />
+      <workItem from="1578553719551" duration="502000" />
+      <workItem from="1578554296365" duration="4589000" />
+      <workItem from="1578866047910" duration="1345000" />
+      <workItem from="1578900599211" duration="2367000" />
+      <workItem from="1578916575312" duration="1403000" />
+      <workItem from="1579195808808" duration="6795000" />
+      <workItem from="1580571746702" duration="232000" />
+      <workItem from="1582146429794" duration="2308000" />
+      <workItem from="1582195293835" duration="4116000" />
+      <workItem from="1582224457234" duration="6324000" />
+      <workItem from="1582235512642" duration="671000" />
+      <workItem from="1582236207264" duration="316000" />
+      <workItem from="1582236631269" duration="1693000" />
+      <workItem from="1582262752957" duration="5806000" />
+      <workItem from="1582273609840" duration="1314000" />
+      <workItem from="1582640222105" duration="142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

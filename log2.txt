@@ -1,0 +1,532 @@
+ProgramState: 2
+ExectutionStack:
+[(int a ; (int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b)))))]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b))))]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(a=2 + 3 * 5 ; (b=a + 1 ; print(b))), int b]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(a=2 + 3 * 5 ; (b=a + 1 ; print(b)))]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(b=a + 1 ; print(b)), a=2 + 3 * 5]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(b=a + 1 ; print(b))]
+SymbolTable:
+{a=17, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(b), b=a + 1]
+SymbolTable:
+{a=17, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(b)]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[18]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[18]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b))))]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(a=2 + 3 * 5 ; (b=a + 1 ; print(b))), int b]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(a=2 + 3 * 5 ; (b=a + 1 ; print(b)))]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(b=a + 1 ; print(b)), a=2 + 3 * 5]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(b=a + 1 ; print(b))]
+SymbolTable:
+{a=17, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(b), b=a + 1]
+SymbolTable:
+{a=17, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(b)]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[18]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(int b ; (a=2 + 3 * 5 ; (b=a + 1 ; print(b))))]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(a=2 + 3 * 5 ; (b=a + 1 ; print(b))), int b]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(a=2 + 3 * 5 ; (b=a + 1 ; print(b)))]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(b=a + 1 ; print(b)), a=2 + 3 * 5]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(b=a + 1 ; print(b))]
+SymbolTable:
+{a=17, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(b), b=a + 1]
+SymbolTable:
+{a=17, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[print(b)]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{a=17, b=18}
+OutputList:
+[18]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int b ; (a=2 + 3 * 117 ; (b=a + 1 ; print(b)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int b ; (a=2 + 3 * 117 ; (b=a + 1 ; print(b))))]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(a=2 + 3 * 117 ; (b=a + 1 ; print(b))), int b]
+SymbolTable:
+{a=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(a=2 + 3 * 117 ; (b=a + 1 ; print(b)))]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(b=a + 1 ; print(b)), a=2 + 3 * 117]
+SymbolTable:
+{a=0, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(b=a + 1 ; print(b))]
+SymbolTable:
+{a=353, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(b), b=a + 1]
+SymbolTable:
+{a=353, b=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(b)]
+SymbolTable:
+{a=353, b=354}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{a=353, b=354}
+OutputList:
+[354]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+

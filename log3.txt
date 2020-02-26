@@ -1,0 +1,448 @@
+ProgramState: 3
+ExectutionStack:
+[(int a ; (int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))))]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v))))]
+SymbolTable:
+{a=true}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v))), int v]
+SymbolTable:
+{a=true}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(IF(a) THEN(v=2)ELSE(v=3) ; print(v)), a=true]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(IF(a) THEN(v=2)ELSE(v=3) ; print(v))]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(v), IF(a) THEN(v=2)ELSE(v=3)]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(v), v=2]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[print(v)]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v))))]
+SymbolTable:
+{a=true}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v))), int v]
+SymbolTable:
+{a=true}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(IF(a) THEN(v=2)ELSE(v=3) ; print(v)), a=true]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(IF(a) THEN(v=2)ELSE(v=3) ; print(v))]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v), IF(a) THEN(v=2)ELSE(v=3)]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v), v=2]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v)]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))), int a]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(int v ; (a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v))))]
+SymbolTable:
+{a=true}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v))), int v]
+SymbolTable:
+{a=true}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(a=true ; (IF(a) THEN(v=2)ELSE(v=3) ; print(v)))]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(IF(a) THEN(v=2)ELSE(v=3) ; print(v)), a=true]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(IF(a) THEN(v=2)ELSE(v=3) ; print(v))]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v), IF(a) THEN(v=2)ELSE(v=3)]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v), v=2]
+SymbolTable:
+{a=true, v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v)]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{a=true, v=2}
+OutputList:
+[2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+

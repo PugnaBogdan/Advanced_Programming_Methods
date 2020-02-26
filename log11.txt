@@ -1,0 +1,1064 @@
+ProgramState: 1
+ExectutionStack:
+[(v=0 ; (while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10)))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=0 ; (while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10))), v=0]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10)))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, (fork((print(v) ; v=v + 1)) ; v=v + 1)]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1, fork((print(v) ; v=v + 1))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; v=v + 1)]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=1}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[v=v + 1, print(v)]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, (fork((print(v) ; v=v + 1)) ; v=v + 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[v=v + 1]
+SymbolTable:
+{v=0}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1, fork((print(v) ; v=v + 1))]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; v=v + 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=2}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[v=v + 1, print(v)]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, (fork((print(v) ; v=v + 1)) ; v=v + 1)]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[v=v + 1]
+SymbolTable:
+{v=1}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1, fork((print(v) ; v=v + 1))]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(v) ; v=v + 1)]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[v=v + 1, print(v)]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10))]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[v=v + 1]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(5)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(4)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(3)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(2)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(1)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(0)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2, 30]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=0 ; (while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10)))), int v]
+SymbolTable:
+{}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(v=0 ; (while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10))))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10))), v=0]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) } ; (sleep(5) ; print(v * 10)))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, (fork((print(v) ; v=v + 1)) ; v=v + 1)]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1, fork((print(v) ; v=v + 1))]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[(print(v) ; v=v + 1)]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=1}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[v=v + 1, print(v)]
+SymbolTable:
+{v=0}
+OutputList:
+[]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, (fork((print(v) ; v=v + 1)) ; v=v + 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[v=v + 1]
+SymbolTable:
+{v=0}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1, fork((print(v) ; v=v + 1))]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 2
+ExectutionStack:
+[]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[(print(v) ; v=v + 1)]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=2}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[v=v + 1, print(v)]
+SymbolTable:
+{v=1}
+OutputList:
+[0]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, (fork((print(v) ; v=v + 1)) ; v=v + 1)]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[v=v + 1]
+SymbolTable:
+{v=1}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1, fork((print(v) ; v=v + 1))]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 3
+ExectutionStack:
+[]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }, v=v + 1]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[(print(v) ; v=v + 1)]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10)), while( v < 3) { (fork((print(v) ; v=v + 1)) ; v=v + 1) }]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[v=v + 1, print(v)]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[(sleep(5) ; print(v * 10))]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[v=v + 1]
+SymbolTable:
+{v=2}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(5)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 4
+ExectutionStack:
+[]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(4)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(3)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(2)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(1)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10), sleep(0)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[print(v * 10)]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
+ProgramState: 1
+ExectutionStack:
+[]
+SymbolTable:
+{v=3}
+OutputList:
+[0, 1, 2, 30]
+FileTable:
+{}
+HeapTable:
+{}
+
+
+
